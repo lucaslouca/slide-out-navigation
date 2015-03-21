@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sGH-fG-BBS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Side Panel View Controller-->
+        <scene sceneID="yxm-dx-Zgo">
+            <objects>
+                <viewController storyboardIdentifier="LeftViewController" id="dqh-C8-vyF" customClass="SidePanelViewController" customModule="slide_out_navigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lqn-6V-umO"/>
+                        <viewControllerLayoutGuide type="bottom" id="vkV-mW-1tY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AbW-FC-cfd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKe-aM-KQR">
+                                <rect key="frame" x="43" y="269" width="75" height="30"/>
+                                <state key="normal" title="select item">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="dqh-C8-vyF" eventType="touchUpInside" id="YbT-5p-t59"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ljs-cS-ZBy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-326" y="429"/>
+        </scene>
+        <!--Side Out Navigation-->
+        <scene sceneID="O34-up-xhL">
+            <objects>
+                <viewController storyboardIdentifier="CenterViewController" id="sGH-fG-BBS" customClass="CenterViewController" customModule="slide_out_navigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PTc-Jc-vnc"/>
+                        <viewControllerLayoutGuide type="bottom" id="eYP-y5-cLJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VYi-UG-0ES">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Side Out Navigation" id="eyx-rP-1Te">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="az4-m0-PSm">
+                            <connections>
+                                <action selector="menuButtonTapped:" destination="sGH-fG-BBS" id="Fyz-8b-esE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VWx-0H-WcN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="435"/>
+        </scene>
+    </scenes>
+</document>
