@@ -33,7 +33,7 @@
             </objects>
             <point key="canvasLocation" x="-326" y="429"/>
         </scene>
-        <!--Side Out Navigation-->
+        <!--Slide Out Navigation-->
         <scene sceneID="O34-up-xhL">
             <objects>
                 <viewController storyboardIdentifier="CenterViewController" id="sGH-fG-BBS" customClass="CenterViewController" customModule="slide_out_navigation" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Side Out Navigation" id="eyx-rP-1Te">
+                    <navigationItem key="navigationItem" title="Slide Out Navigation" id="eyx-rP-1Te">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="az4-m0-PSm">
                             <connections>
                                 <action selector="menuButtonTapped:" destination="sGH-fG-BBS" id="Fyz-8b-esE"/>
