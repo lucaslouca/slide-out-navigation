@@ -2,4 +2,4 @@
 
 Swift slide-out navigation example
 
-<img src="https://cloud.githubusercontent.com/assets/10542894/6979379/35b49708-d9e3-11e4-86ff-80428c027307.gif" width="300">
+<img src="https://cloud.githubusercontent.com/assets/10542894/6981249/7e5bb8fe-d9fe-11e4-9bcf-5067d46af20e.gif" width="300">
