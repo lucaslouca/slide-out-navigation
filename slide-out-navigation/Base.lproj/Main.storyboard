@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKe-aM-KQR">
-                                <rect key="frame" x="43" y="269" width="75" height="30"/>
+                                <rect key="frame" x="16" y="20" width="75" height="30"/>
                                 <state key="normal" title="select item">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -44,7 +44,7 @@
                     <view key="view" contentMode="scaleToFill" id="VYi-UG-0ES">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Side Out Navigation" id="eyx-rP-1Te">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="az4-m0-PSm">
