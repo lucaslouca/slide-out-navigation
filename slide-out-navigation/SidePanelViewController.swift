@@ -18,7 +18,7 @@ protocol SidePanelViewControllerDelegate {
 class SidePanelViewController: UIViewController {
     var delegate: SidePanelViewControllerDelegate?
     
-    @IBAction func closeButtonTapped(sender: AnyObject) {
+    @IBAction func closeButtonTapped(_ sender: AnyObject) {
         delegate?.itemSelected()
     }
     

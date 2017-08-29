@@ -13,14 +13,14 @@ import UIKit
 
 @objc
 protocol CenterViewControllerDelegate {
-    optional func toggleSidePanel()
-    optional func collapseSidePanel()
+    @objc optional func toggleSidePanel()
+    @objc optional func collapseSidePanel()
 }
 
 class CenterViewController: UIViewController, SidePanelViewControllerDelegate {
     var delegate: CenterViewControllerDelegate?
 
-    @IBAction func menuButtonTapped(sender: AnyObject) {
+    @IBAction func menuButtonTapped(_ sender: AnyObject) {
         delegate?.toggleSidePanel?()
     }
     
